@@ -1,12 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Psoc 4</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
-<body>
-    <h1>Test</h1>
+
+  <!--CSS Section-->
+<style>
+    
+  /* Style for a class*/
+  .gray {
+    background: linear-gradient(to right , rgba(28, 0, 113,0.85), rgba(20,200,200,1));
+  }
+
+  /* Style for a component*/
+  li {
+    font: 1rem 'Fira Sans', sans-serif;
+    margin-bottom: .5rem;
+  }
+
+  main {
+    font: 1rem 'Fira Sans', sans-serif;
+    margin-bottom: .5rem;
+  }
+</style>
+
+<body class="gray">
+  <script src="script.js"></script>
+  
+  <!--Title-->
+  <header class="w-full" style="text-align: center">
+    <h1>París</h1>
+    
+    <!--Date-->
+    <p>Posted on Wednesday, <time datetime="2022-09-12">4 september 2022</time> by Yumil Rueda</p>
+  </header>
+  
+  <!--Image-->
+  <div class="w-full" style="text-align: center" ast="Photo of the city""">
+    <img class="fit-picture w-1/2" src="img/paris.jpg" style="width: 500px;">
+  </div>
+  
+  <!--Just a little jump-->
+  <br>
+  
+  <!--Content/Text part-->
+  <section class="text">
+    <main >
+      <p style="text-align: justify;"> 
+        Paris a city full of history, full of life, fashion, gourmet food, among other things. The city that some even call the city of love, as it has been the site of countless marriage proposals and many couples decide to leave a padlock as a token of their love in front of the Eiffel Tower.
+      </p>
+      
+      <p>I loved Paris <em>so</em> much! It is one of the most charming cities in the world but it is huge so I am going
+        to list the most important places to visit:
+      </p>
+    </main>
+
+    <!--LIST-->
+    <ol>
+      <li>Eiffel Tower.</li>
+      <li>The museum Louvre.</li>
+      <li>The pantheon.</li>
+      <li>The catacombs.</li>
+      <li>Notre-Dame.</li>
+            <li>...</li>
+    </ol>
+    
+    <!--LINK-->
+    <div style="text-align: center">
+      <p style="display: inline-block;">Read more about these places:</p>
+      <a href="https://www.viajeroscallejeros.com/20-lugares-visitar-paris-imprescindibles/">
+        here</a>
+    </div>
+
+    <!--A cite-->
+  <figure style="text-align: center">
+      <blockquote>
+          <p>"Wherever you go, it somehow becomes part of you"</p>
+      </blockquote>
+      <figcaption>First sentence in <cite><a href="http://www.george-orwell.org/1984/0.html">Nineteen Eighty-Four</a></cite> by Anita Desai 2. (Part 1, Chapter 1).</figcaption>
+  </figure>
+  </section>
+
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
 </body>
+
 </html>
